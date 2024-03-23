@@ -7,6 +7,7 @@ import com.example.smashtaps.controller.vo.ProductVO;
 import com.example.smashtaps.service.EcommerceService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.coyote.BadRequestException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,6 +20,7 @@ public class EcommerceController {
 
     private EcommerceService ecommerceService;
 
+    @Autowired
     public EcommerceController(final EcommerceService ecommerceService){
         this.ecommerceService = ecommerceService;
     }
