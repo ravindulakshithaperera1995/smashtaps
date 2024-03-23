@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: smash-taps
+  datasource:
+    url: jdbc:postgresql://localhost:5432/smashtaps
+    username: postgres
+    password: admin
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      naming_strategy: org.hibernate.cfg.ImprovedNamingStrategy
