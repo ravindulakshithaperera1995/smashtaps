@@ -16,4 +16,9 @@ After Installing,
 3) Start the PgAdmin4 tool to run the database.
 4) To run the project from IntelliJ, follow https://www.jetbrains.com/help/idea/spring-boot.html, to run from command line, follow https://spring.io/guides/gs/spring-boot
 
-If the project is run successfully, in PGAdmin tool, under databases, the new database will be shown.    
+If the project is run successfully, in PGAdmin tool, under databases, the new database will be shown.  
+
+API End Points
+1)  /e-commerce/product - A Post API to save product data,
+2) /e-commerce/shopper-data - A Post API to save shopper data,
+3) /e-commerce/shopper-data - A Get API to get the saved shopper data
